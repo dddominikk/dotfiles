@@ -13,6 +13,9 @@ source $ZSH/oh-my-zsh.sh
 eval `dircolors ~/.dircolors`
 
 
+# Git
+alias gs="git status"
+
 # Either removes a file extension or a slash at the end of a string, in that order of priority.
 # basically get directory path from a file path and dir name from a dir path
 strip_suffix() {
